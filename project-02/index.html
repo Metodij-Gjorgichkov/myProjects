@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Street ARtists</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="background-light">
+    <!-- LANDING PAGE -->
+    <section id="landingPage" class="allSectionPages text-center">
+      <nav>
+        <div class="container-fluid">
+          <div class="row py-4 nav-shadow">
+            <div class="col">
+              <a href="#" class="text-decoration-none default-color fontSize"
+                >Street ARtists</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col py-4">
+            <img src="./images/logo.png" class="logo" alt="LOGO" />
+          </div>
+        </div>
+        <div
+          class="row justify-content-center align-items-center text-center slideWholeContent"
+        >
+          <div class="col-8 text-center">
+            <div class="join-as-artist rectangle-color pt-4">
+              <h1 class="default-color">Join as ARtist</h1>
+              <div class="row">
+                <div class="col-3 offset-3 text-right">
+                  <select
+                    name=""
+                    id=""
+                    class="font-roboto default-color bg-transparent default-border p-1 selectArtist"
+                  >
+                    <option value="" disabled selected>Choose</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="join-as-visitor default-bg pt-7">
+              <a href="#visitorHomePage" class="text-decoration-none">
+                <h1 class="light-color">Join as Visitor</h1></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- LANDING PAGE -->
+
+    <!-- NAVBAR  -->
+    <div class="container-fluid" style="z-index: 1000">
+      <div
+        class="row align-items-center justify-content-between pt-2 position-relative"
+        style="margin-bottom: -10px"
+      >
+        <div id="bottomLine" class="bottom-line allSectionPages"></div>
+        <div class="col-10">
+          <div id="logoAndContent" class="allSectionPages">
+            <img src="./images/logoo.png" alt="" />
+            <h3 class="default-color mb-0 logo-content d-inline artistName">
+              Street ARtists
+            </h3>
+          </div>
+        </div>
+        <div class="col-2 text-right">
+          <div>
+            <i
+              id="hamMenu"
+              class="bi bi-list default-color hamburger-icon allSectionPages"
+            ></i>
+            <!-- navbar menu for artists-->
+            <ul
+              id="menuList"
+              class="list-unstyled font-roboto default-bg mb-0 py-3 position-fixed allSectionPages"
+            >
+              <li>
+                <a
+                  id="homeOption"
+                  href="#artistHomePage"
+                  class="mb-2 d-block text-light text-capitalize text-center text-decoration-none"
+                  >home</a
+                >
+              </li>
+              <li>
+                <a
+                  id="artist-option"
+                  href="#artistItemPage"
+                  class="mb-2 d-block text-light text-capitalize text-center text-decoration-none"
+                  >items
+                </a>
+              </li>
+              <li>
+                <a
+                  id="auction-option"
+                  href="#auctionPage"
+                  class="d-block text-light text-capitalize text-center text-decoration-none"
+                  >auction</a
+                >
+              </li>
+            </ul>
+            <!-- navbar menu for artists-->
+          </div>
+          <img
+            style="cursor: pointer"
+            id="vectorImg"
+            src="./images/Vector.png"
+            class="vector-img allSectionPages"
+            alt="VECTOR"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- NAVBAR  -->
+
+    <!-- VISITOR HOME PAGE -->
+    <section id="visitorHomePage" class="allSectionPages">
+      <div class="container-fluid bricks-bg">
+        <div class="row justify-content-between align-items-center pt-4">
+          <div class="col-6">
+            <h3
+              class="font-roboto default-color bricks-content"
+              style="line-height: 36px"
+            >
+              Looking for <br />masterpiece?
+            </h3>
+          </div>
+          <div class="col-6 text-right">
+            <a href="#signInPage">
+              <button
+                class="btn btn-sm default-bg light-color font-roboto findOneBtn"
+              >
+                Find one now!
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- slider -->
+      <div class="img-slider default-bg" style="height: 420px">
+        <div class="right-side">
+          <div class="slide-left slide-styler"></div>
+        </div>
+        <div class="left-side">
+          <div class="slide-right slide-styler"></div>
+        </div>
+      </div>
+
+      <!-- carousel -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="1000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div
+                class="row text-center py-5 position-relative portraits-slider"
+              >
+                <div class="col-6 pr-4 border-right-centered">
+                  <img
+                    src="./images/portraits/people1.jpg"
+                    class="rounded-circle w-50 portrait-pic"
+                    alt=""
+                  />
+                  <p
+                    class="pt-5 pb-2 font-roboto background-dark portrait-content light-color ml-2"
+                  >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni eveniet voluptatem
+                  </p>
+                </div>
+                <div class="col-6">
+                  <p class="font-roboto pt-5 default-color">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni eveniet voluptatem cumque!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div
+                class="row text-center py-5 position-relative portraits-slider"
+              >
+                <div class="col-6 pr-4 border-right-centered">
+                  <img
+                    src="./images/portraits/people2.jpg"
+                    class="rounded-circle w-50 portrait-pic"
+                    alt=""
+                  />
+                  <p
+                    class="pt-5 pb-2 font-roboto background-dark portrait-content light-color ml-2"
+                  >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni eveniet voluptatem
+                  </p>
+                </div>
+                <div class="col-6">
+                  <p class="font-roboto pt-5 default-color">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni eveniet voluptatem cumque!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div
+                class="row text-center py-5 position-relative portraits-slider"
+              >
+                <div class="col-6 pr-4 border-right-centered">
+                  <img
+                    src="./images/portraits/people3.jpg"
+                    class="rounded-circle w-50 portrait-pic"
+                    alt=""
+                  />
+                  <p
+                    class="pt-5 pb-2 font-roboto background-dark portrait-content light-color ml-2"
+                  >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni eveniet voluptatem
+                  </p>
+                </div>
+                <div class="col-6">
+                  <p class="font-roboto pt-5 default-color">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni eveniet voluptatem cumque!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <i class="bi bi-caret-left left-icon"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <i class="bi bi-caret-right right-icon"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- VISITOR HOME PAGE -->
+
+    <!-- VISITOR LISTING PAGE -->
+    <section id="visitorListingPage" class="allSectionPages default-darker-bg">
+      <div class="container-fluid" style="margin-top: -14px">
+        <a href="#visitorFiltersPage">
+          <img
+            id="filterImg"
+            class="filter-img"
+            src="./images/filter.png"
+            alt=""
+        /></a>
+        <div class="row pt-3 renderCards"></div>
+      </div>
+    </section>
+    <!-- VISITOR LISTING PAGE -->
+
+    <!-- VISITOR FILTERS PAGE -->
+    <section
+      id="visitorFiltersPage"
+      class="allSectionPages"
+      style="background-color: #a16a5e"
+    >
+      <div class="container-fluid position-relative" style="margin-top: -14px">
+        <div
+          class="row justify-content-between align-items-center pt-5 pb-7 light-color font-roboto"
+        >
+          <div class="check-mark">
+            <img src="./images/check.png" class="check-mark" alt="" />
+          </div>
+
+          <div class="exit-icon">
+            <i class="bi bi-x light-color"></i>
+          </div>
+
+          <div class="col-12">
+            <h3 class="mb-4">Filter by</h3>
+          </div>
+          <div class="col-12">
+            <label class="mb-3" for="itemTitle">By Item Title</label>
+            <br />
+            <input
+              type="text"
+              id="itemTitle"
+              placeholder="Label"
+              class="bg-transparent light-border text-white w-25 mb-3"
+            />
+            <hr class="light-border mb-3" />
+          </div>
+          <div class="col-12">
+            <label class="d-block mb-3" for="byArtist">By Artist</label>
+
+            <select
+              name="artist"
+              id="byArtist"
+              class="bg-transparent light-border light-color w-25 mb-3"
+            >
+              <option value="" disabled selected>Choose</option>
+            </select>
+            <hr class="light-border mb-3" />
+          </div>
+          <div class="col-12">
+            <label class="d-block mb-3">By Price</label>
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <label for="min">Min:</label>
+                <input
+                  type="text"
+                  placeholder="Min:"
+                  id="min"
+                  class="light-border bg-transparent w-50"
+                />
+              </div>
+              <div class="text-right">
+                <label for="max">Max:</label>
+                <input
+                  type="text"
+                  placeholder="Max:"
+                  id="max"
+                  class="light-border bg-transparent w-50"
+                />
+              </div>
+            </div>
+            <hr class="light-border mb-3" />
+          </div>
+          <div class="col-12">
+            <label for="byType" class="d-block mb-3">By Type</label>
+            <select
+              id="byType"
+              class="bg-transparent light-border light-color w-25 mb-3"
+            >
+              <option value="" disabled selected>Choose</option>
+            </select>
+            <hr class="light-border mb-3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- VISITOR FILTERS PAGE -->
+
+    <!-- ARTIST HOME PAGE -->
+    <section id="artistHomePage" class="allSectionPages">
+      <div class="container-fluid default-darker-bg" style="margin-top: -14px">
+        <div
+          class="row py-4 font-roboto justify-content-around align-content-center text-center light-color"
+        >
+          <div class="col-5 default-bg py-2 px-1">
+            <p>Total Items Sold</p>
+            <h3>
+              <span id="itemsSold">12</span>/<span id="publishedItems">35</span>
+            </h3>
+          </div>
+          <div class="col-5 default-bg py-2 px-1">
+            <p>Total Income</p>
+            <h3><span id="totalIncome">1400$</span></h3>
+          </div>
+          <div class="col-11 mt-3 py-2 text-center px-0 red-bg">
+            <p class="mb-0">Live Auctioning Item</p>
+            <h3 class="mb-0"><span>No live auction</span></h3>
+            <p class="mb-0">current bid</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid font-roboto">
+        <div class="artist-chart background-light" id="artist-chart">
+          <p class="chart-text">Display my income for last</p>
+          <div class="buttons">
+            <button class="button btn" id="last-7-days">7 days</button>
+            <button class="button btn" id="last-14-days">14 days</button>
+            <button class="button btn" id="last-30-days">30 days</button>
+          </div>
+          <div><canvas id="myChart"></canvas></div>
+        </div>
+      </div>
+    </section>
+    <!-- ARTIST HOME PAGE -->
+
+    <!-- ARTIST ITEM PAGE -->
+    <section id="artistItemPage" class="allSectionPages font-roboto">
+      <div class="container-fluid default-darker-bg" style="margin-top: -14px">
+        <div class="row">
+          <div class="col-12 py-4">
+            <div
+              class="box-add-new-item background-light text-center"
+              style="cursor: pointer"
+            >
+              <h4 class="default-color mb-0">+ Add new item</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 artist-card-populater default-color px-0"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ARTIST ITEM PAGE -->
+
+    <!-- ARTIST ADD NEW ITEM PAGE -->
+    <section id="artistAddNewItemPage" class="allSectionPages">
+      <div
+        class="container-fluid font-roboto default-bg light-color"
+        style="margin-top: -14px"
+      >
+        <form class="add-item-form">
+          <div class="row justify-content-between align-items-center pt-4 pb-3">
+            <div class="col-7">
+              <h3>Add new Item</h3>
+            </div>
+            <div class="col-5 text-right">
+              <label for="isPublishedCheckbox">Is Published</label>
+              <input type="checkbox" id="isPublishedCheckbox" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 pb-3">
+              <div class="form-group">
+                <label class="mb-0" for="titleNewItem">Title</label>
+                <input
+                  type="text"
+                  class="form-control bg-transparent light-color light-border"
+                  id="titleNewItem"
+                />
+              </div>
+            </div>
+            <div class="col-12 pb-3">
+              <div class="form-group">
+                <label class="mb-0" for="descriptionNewItem">Description</label>
+                <textarea
+                  class="form-control bg-transparent light-color light-border"
+                  id="descriptionNewItem"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-12 pb-3">
+              <div
+                class="form-group d-flex justify-content-between align-items-center"
+              >
+                <div class="newType">
+                  <label for="newItemType">Type</label>
+                  <select
+                    name="type"
+                    id="newItemType"
+                    class="bg-transparent light-color form-control"
+                  ></select>
+                </div>
+                <div>
+                  <label for="newItemPrice">Price</label>
+                  <input
+                    type="number"
+                    id="newItemPrice"
+                    class="form-control light-color bg-transparent"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group mb-0">
+                <label class="mb-0" for="newItemImageUrl">Image URL</label>
+                <input
+                  type="url"
+                  class="form-control bg-transparent light-color light-border"
+                  id="newItemImageUrl"
+                />
+              </div>
+              <div class="text-center">or</div>
+
+              <div class="form-group">
+                <div class="dashed-box p-5 text-center">
+                  <a
+                    href="#captureImagePopup"
+                    class="text-decoration-none light-color"
+                  >
+                    <img src="" id="preview" alt="" style="width: 100%" />
+                    <br />
+                    <i
+                      class="bi bi-camera-fill text-center cameraIcon capture-camera-snap"
+                    ></i>
+                    <p
+                      class="text-center mb-0 snap-title"
+                      style="margin-top: -11px"
+                    >
+                      Take a snapshot
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <div
+                  class="d-flex justify-content-between align-content-center"
+                >
+                  <button
+                    type="submit"
+                    class="btn btn-danger light-color addNewItem"
+                  >
+                    Add New Item
+                  </button>
+                  <button
+                    type="button"
+                    class="btn px-5 cancelItem"
+                    style="background-color: #e5e5e5"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- ARTIST ADD NEW ITEM PAGE -->
+
+    <!-- CAPTURE IMAGE POPUP -->
+    <section
+      id="captureImagePopup"
+      class="allSectionPages default-bg text-center"
+      style="margin-top: -14px; height: 90vh"
+    >
+      <div class="container pt-3 position-relative">
+        <div class="row">
+          <div class="col-12">
+            <video
+              preload="metadata"
+              autoplay
+              id="streamingVideo"
+              style="max-width: 80%"
+            ></video>
+            <canvas style="display: none" id="captureCanvas"></canvas>
+            <br />
+            <i
+              class="bi bi-camera-fill text-center cameraIcon"
+              id="captureImage"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CAPTURE IMAGE POPUP -->
+
+    <!-- AUCTION PAGE -->
+    <section id="auctionPage" class="allSectionPages">
+      <div class="container main-container font-roboto mt-4">
+        <div class="row">
+          <div class="col-12 auction-card px-0">
+            <div class="card">
+              <img
+                src="https://picsum.photos/500/300"
+                class="card-img-top auction-image"
+              />
+              <div class="card-body default-bg light-color">
+                <h5 class="card-title auction-title">Card title</h5>
+                <p class="card-text auction-description">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button
+                  class="btn background-light card-price default-color auction-price"
+                >
+                  $500
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 counter mt-3 text-center default-border default-bg light-color py-4"
+          >
+            <p class="d-inline mr-3 auction-text">The auction is ending in:</p>
+            <span class="auction-seconds p-3 bg-success light-color"></span>
+          </div>
+          <div class="col-12 bidder mt-3 text-center">
+            <label for="bidding-price">Enter your bid price</label>
+            <input
+              type="number"
+              class="w-25 bg-transparent default-border default-color"
+              id="bidding-price"
+            />
+            <button
+              type="submit"
+              class="btn bg-success light-color confirmBidderPrice"
+            >
+              Confirm
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container no-live-auction font-roboto mt-4 default-color text-center"
+      >
+        <h3>There is no live auction at the moment</h3>
+        <button class="get-back default-darker-bg">
+          Click to get back to Home page
+        </button>
+      </div>
+    </section>
+    <!-- AUCTION PAGE -->
+
+    <!-- SIGN IN PAGE -->
+    <section id="signInPage" class="allSectionPages">
+      <div class="container-fluid mb-1">
+        <div
+          class="row position-relative py-3 justify-content-between align-items-center"
+        >
+          <div class="bottom-line-signUp"></div>
+          <div class="col-8">
+            <a href="#landingPage">
+              <img src="./images/logoo.png" alt="LOGO" />
+              <h3 class="d-inline default-color">Artist Name</h3>
+            </a>
+          </div>
+          <div class="col-4 text-right" style="display: none">
+            <i class="bi bi-list hamIconSignUp default-color"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-3">
+        <div class="row text-center">
+          <div class="col-12 mb-1">
+            <img src="./images/logo.png" />
+          </div>
+          <div class="col-12">
+            <h2 class="default-color font-roboto font-weight-light">
+              Welcome back!
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container font-roboto default-darker-bg py-4 mb-5">
+        <div class="row text-center">
+          <div class="col-12 mb-3">
+            <input
+              id="signInUsernameInput"
+              type="text"
+              placeholder="username"
+              class="w-50 sign-in-inputs py-1"
+            />
+          </div>
+          <div class="col-12 mb-3">
+            <input
+              id="signInPasswordInput"
+              type="password"
+              placeholder="password"
+              class="w-50 sign-in-inputs py-1"
+            />
+          </div>
+          <div class="col-12 mb-3">
+            <div class="btn default-bg light-color w-50 loginButton">Login</div>
+          </div>
+          <div class="col-12">
+            <a href="" class="text-decoration-none default-color"
+              >Forgot password?</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container font-roboto">
+        <div class="row">
+          <div class="col-6 text-right p-3">
+            <a href="#signInPage" class="fb-and-insta-buttons text-primary">
+              <span><i class="bi bi-facebook mr-1 fb-icon"></i>Sign In</span>
+            </a>
+          </div>
+          <div class="col-6 text-left p-3 mb-2">
+            <a href="#signInPage" class="fb-and-insta-buttons text-danger">
+              <span><i class="bi bi-instagram mr-1"></i>Sign In</span>
+            </a>
+          </div>
+          <div class="col-12 text-center">
+            <a
+              href="#signUpPage"
+              class="default-color text-decoration-none"
+              style="font-size: 12px"
+              ><span class="text-dark">Don't have an account yet?</span> Sign
+              Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SIGN IN PAGE -->
+
+    <!-- SIGN UP PAGE -->
+    <section id="signUpPage" class="allSectionPages">
+      <div class="container-fluid default-darker-bg sign-up-main-title mb-3">
+        <div class="row py-3">
+          <div class="col text-center px-0">
+            <h3 class="default-color py-2 mb-0">Street Artists</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-3">
+        <div class="row text-center">
+          <div class="col-12">
+            <img src="./images/logo.png" />
+          </div>
+          <div class="col-12">
+            <h2 class="default-color font-roboto font-weight-light">
+              Thank You!
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container font-roboto default-darker-bg py-4 mb-3">
+        <div class="row text-center">
+          <div class="col-12 mb-3">
+            <input
+              id="signUpPhoneNumberInput"
+              type="text"
+              placeholder="phone number"
+              class="w-50 sign-up-inputs py-1"
+            />
+          </div>
+          <div class="col-12 mb-3">
+            <input
+              id="signUpUsernameInput"
+              type="text"
+              placeholder="username"
+              class="w-50 sign-up-inputs py-1"
+            />
+          </div>
+          <div class="col-12 mb-5">
+            <input
+              id="signUpPasswordInput"
+              type="password"
+              placeholder="password"
+              class="w-50 sign-up-inputs py-1"
+            />
+          </div>
+          <div class="col-12 mb-3">
+            <button
+              type="submit"
+              class="btn default-bg light-color w-50 signUpButton"
+            >
+              Sign Up
+            </button>
+          </div>
+          <div class="col-12">
+            <a
+              href="#signUpPage"
+              class="text-decoration-none default-color"
+              style="font-size: 11px"
+              >By signing up, you agree to our terms</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container font-roboto">
+        <div class="row">
+          <div class="col-6 text-right p-3">
+            <a
+              href="https://www.facebook.com/home.php"
+              class="fb-and-insta-buttons text-primary"
+            >
+              <span><i class="bi bi-facebook mr-1 fb-icon"></i>Sign Up</span>
+            </a>
+          </div>
+          <div class="col-6 text-left p-3 mb-2">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="fb-and-insta-buttons text-danger"
+            >
+              <span><i class="bi bi-instagram mr-1"></i>Sign Up</span>
+            </a>
+          </div>
+          <div class="col-12 text-center">
+            <a
+              href="#signInPage"
+              class="default-color text-decoration-none"
+              style="font-size: 12px"
+              ><span class="text-dark">Already have an account?</span> Sign
+              In</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SIGN UP PAGE -->
+
+    <!-- SIGNED IN HOME PAGE -->
+    <section id="signedInHomePage" class="allSectionPages activeOpacity">
+      <div class="container-fluid mb-2">
+        <div
+          class="row position-relative py-3 justify-content-between align-items-center"
+        >
+          <div class="bottom-line-signUp"></div>
+          <div class="col-8">
+            <a href="#landingPage">
+              <img src="./images/logoo.png" alt="LOGO" />
+              <h3 class="d-inline default-color signedInArtistName">
+                Artist Name
+              </h3>
+            </a>
+          </div>
+          <div class="col-4 text-right">
+            <i id="hamburgerSignedArtist" class="bi bi-list default-color"></i>
+            <div>
+              <ul
+                class="stylingTheHamMenuHome list-unstyled font-roboto default-bg"
+              >
+                <li><a href="#signedInHomePage" class="homeButton">Home</a></li>
+                <li><a href="#signInPage">Sign In</a></li>
+                <li><a href="#signUpPage">Sign Up</a></li>
+                <li style="text-decoration: line-through">
+                  <a href="">Settings</a>
+                </li>
+                <li><a href="#signInPage">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container font-roboto mt-2">
+        <div class="row">
+          <div
+            class="col-12 mb-5 pb-4"
+            style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)"
+          >
+            <h2 class="default-color">
+              We are currently reviewing your account and shall get in touch
+              with you shortly
+            </h2>
+            <span class="default-color"
+              >Sincerely, your Street ARtist team</span
+            >
+          </div>
+
+          <div class="col-12 animationReviewingAccount text-center">
+            <img src="./images/logo.png" style="width: 300px" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SIGNED IN HOME PAGE -->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./Data/data.js"></script>
+    <script src="./js/selectors.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/landingPage.js"></script>
+    <script src="./js/visitorHomePage.js"></script>
+    <script src="./js/visitorListingPage.js"></script>
+    <script src="./js/artistHomePage.js"></script>
+    <script src="./js/artistItemPage.js"></script>
+    <script src="./js/captureImagePopup.js"></script>
+    <script src="./js/auction.js"></script>
+    <script src="./js/signUpPage.js"></script>
+    <script src="./js/signInPage.js"></script>
+  </body>
+</html>
