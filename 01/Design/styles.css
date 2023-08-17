@@ -1,0 +1,72 @@
+.navbar-brand img {
+      width: 50px;
+}
+.f-size {
+      font-size: 10px !important;
+      text-align: center;
+}
+.bigger {
+      font-size: 40px !important;
+}
+.bg-image {
+      width: 100%;
+      height: 60vh;
+      background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/stairs-steps_L0G2A5R6VK.jpg);
+      background-position: center;
+      background-size: cover;
+      background-blend-mode: soft-light;
+      background-color: rgb(96, 88, 88);
+}
+.bg-color {
+      background-color: #343a40;
+  }
+  
+.text-color {
+      color: #f8f9fa;
+  }
+  
+.cursor-pointer {
+      cursor: pointer;
+}
+.card:hover {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      transform: translateY(-0.70rem);
+ }
+.py-8 {
+      padding-top: 68px;
+      padding-bottom: 145px;
+}  
+input[type="checkbox"] {
+      display: none;
+ }
+.i-designed {
+      color: #302f38;
+      position: absolute;
+      top: 36%;
+      right: 5%;  
+ }
+ hr {
+      margin: 0 auto;
+      margin-right: 0;
+      height: 4px;
+      background-color: #302F38;;
+      border-radius: 4px;
+      }
+ .navbar-toggler {
+       border: none;
+}    
+   
+.border-grey {
+      border-right: 1px solid rgb(87, 80, 80);
+ }
+
+
+ @media (max-width: 425px) {
+    .border-md-bottom {
+        border-top: 1px solid #424242;
+    } 
+    .mt-10 {
+          margin-top: 200px;
+
+    }
+}
