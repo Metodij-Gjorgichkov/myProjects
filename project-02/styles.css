@@ -241,6 +241,18 @@ img {
     z-index: 1000;
     width: 65px;
 }
+#slideUpIcon {
+    position: fixed;
+    bottom: 40px;
+    z-index: 1000;
+    background-color: lightgrey;
+    left: 20px;
+    padding: 5px;
+    display: none;
+}
+#slideUpIcon:hover {
+    background-color: darkcyan;
+}
 .button-price {
     background-color: #a16a5e;
     color: white;

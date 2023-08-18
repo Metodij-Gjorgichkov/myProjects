@@ -4,6 +4,7 @@ function visitorListingPageAllFn() {
   filter();
   populateType("#byType");
   populateSelectFilter("#byArtist");
+  scrolledAtBottom();
 }
 
 function renderListingPage() {
@@ -127,4 +128,19 @@ function populateSelectFilter(selectItem) {
             `;
       });
     });
+}
+
+function scrolledAtBottom() {
+  const slideUpIcon = document.querySelector("#slideUpIcon");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY >= window.innerHeight) {
+      slideUpIcon.style.display = "block";
+    } else {
+      slideUpIcon.style.display = "none";
+    }
+
+    slideUpIcon.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
 }
