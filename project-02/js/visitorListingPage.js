@@ -4,7 +4,7 @@ function visitorListingPageAllFn() {
   filter();
   populateType("#byType");
   populateSelectFilter("#byArtist");
-  scrolledAtBottom();
+  scrolledAtBottom("#slideUpIcon", "#slideDownIcon");
 }
 
 function renderListingPage() {
@@ -130,17 +130,24 @@ function populateSelectFilter(selectItem) {
     });
 }
 
-function scrolledAtBottom() {
-  const slideUpIcon = document.querySelector("#slideUpIcon");
+function scrolledAtBottom(iconUp, iconDown) {
+  const slideUpIcon = document.querySelector(iconUp);
+  const slideDownIcon = document.querySelector(iconDown);
   window.addEventListener("scroll", () => {
     if (window.scrollY >= window.innerHeight) {
       slideUpIcon.style.display = "block";
+      slideDownIcon.style.display = "block";
     } else {
       slideUpIcon.style.display = "none";
+      slideDownIcon.style.display = "none";
     }
 
     slideUpIcon.addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    slideDownIcon.addEventListener("click", () => {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
     });
   });
 }

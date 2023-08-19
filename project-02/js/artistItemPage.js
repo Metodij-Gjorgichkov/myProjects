@@ -5,6 +5,7 @@ function artistItemPageAllfn() {
   addNewItem();
   cancelItem();
   addingNewItemToTheList();
+  scrolledAtBottom("#slideUpIconArtist", "#slideDownArtist");
 }
 
 function createArtistCard(item) {
