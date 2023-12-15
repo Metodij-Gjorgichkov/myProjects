@@ -1,0 +1,1062 @@
+{
+      "about_page": {
+            "first_image": "/icons/star1.png",
+            "first_title": "За нас",
+            "our_story": "Нашата приказна",
+            "our_work": "Нашата работа",
+            "second_image": "/images/aboutImage.png", 
+            "third_image": "/images/contactImage.png", 
+            "first_content_story": "Кои сме ние?",
+            "first_content_work": "Која е нашата работа?",
+            "second_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type an scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electr typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "third_content": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          },
+          "contact_page": {
+            "first_image": "/icons/star1.png",
+            "first_title": "Контакт",
+            "second_image": "/images/contactImage.png",
+            "second_title": "Игралиште Дебар Маало", 
+            "second_content1": "Откриј ги нашите останати модни парчиња",
+            "second_content2": "колекции кои ги немаме изложено на нашата",
+            "second_content3": "страна",
+            "adress": "Мирослав Крлежа 48а, Дебар Маало",
+            "city": "Скопје",
+            "number_contact": "Телефон за контакт:",
+            "phone_number": "+ 389 078 380 406",
+            "working_hours": "Работно Време:",
+            "working_hours1": "Понеделник - Петок 12:00 - 19:00.",
+            "working_hours2": "Сабота 12:00 - 17:00"
+          },
+          "faq_page": {
+            "first_image": "/icons/star1.png",
+            "first_title": "FAQ",
+            "question": "1. Ова е примерок за прашања кои биле на страната?",
+            "content": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          },
+          "companyPolicies": {
+            "quality_inspection": "Контрола на квалитет",
+            "quality_inspection_image": "/icons/control.png",
+            "return_policies": "Политика на враќање",
+            "return_policies_image": "/icons/return.png",
+            "delivery": "Достава",
+            "delivery_image": "/icons/delivery.png",
+            "help": "Помош",
+            "help_image": "/icons/help.png"
+          },
+          "gift_cards": {
+            "title": "Gift картички за подарок",
+            "gift_price": "Одбери цена на подарок картичка:",
+            "cards": [
+              {
+                "id": "1",
+                "image": "/images/gift/partyGirlGift.png",
+                "brand": "Pink Partywear"
+              },
+              {
+                "id": "2",
+                "image": "/images/gift/vintageChickGift.png",
+                "brand": "Urma" 
+              },
+              {
+                "id": "3",
+                "image": "/images/gift/wavyGift.png",
+                "brand": "Candle Nest"
+              }
+            ]
+          },
+          "products": [
+                {
+                  "id": "1",
+                  "type": "vintage",
+                  "category": "блузи",
+                  "name": "Бела блуза",
+                  "brand": "Pink Partywear",
+                  "brand_informations": {
+                   "world_wide_brand": "Странски б.",
+                   "brand_logo_image": "/icons/star1.png",
+                   "brand_advertise_image": "/images/brand-image.png",
+                   "brand_concept_text": "Концептот на Pink Partywear се базира на неколку прашања",
+                   "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                   "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                   "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                   "brand_question_four": "Дали ке ни текне?",
+                   "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                   "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                  },
+                  "images": {
+                        "main": "/images/whiteTshirt/whiteTshirt.png",
+                        "small": [
+                          "/images/whiteTshirt/whiteTshirt2.png",
+                          "/images/whiteTshirt/whiteTshirt3.png",
+                          "/images/whiteTshirt/whiteTshirt4.png",
+                          "/images/whiteTshirt/whiteTshirt2.png",
+                          "/images/whiteTshirt/whiteTshirt3.png",
+                          "/images/whiteTshirt/whiteTshirt4.png",
+                          "/images/whiteTshirt/whiteTshirt2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 700,
+                  "size": "S",
+                  "leftOnly": "3",
+                  "discount": "20%",
+                  "color": "white",
+                  "createdAt": "2023-01-01T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "блузи",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "2",
+                  "type": "vintage",
+                  "category": "панталони",
+                  "name": "Панталони",
+                  "brand": "Factory Girl",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/urma.png",
+                    "brand_concept_text": "Концептот на Factory Girl се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/trousers/trousers4.png",
+                        "small": [
+                          "/images/trousers/trousers3.png",
+                          "/images/trousers/trousers2.png",
+                          "/images/trousers/trousers1.png",
+                          "/images/trousers/trousers3.png",
+                          "/images/trousers/trousers4.png",
+                          "/images/trousers/trousers1.png",
+                          "/images/trousers/trousers2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1200,
+                  "size": "M",
+                  "leftOnly": "2",
+                  "color": "lightGray",
+                  "createdAt": "2023-01-02T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "панталони",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "3",
+                  "type": "vintage",
+                  "category": "здолништа / шорцеви",
+                  "name": "Црни брендирани гаќи",
+                  "brand": "Main Days",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/gatta.png",
+                    "brand_concept_text": "Концептот на Main Days се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/shorts/shorts1.png",
+                        "small": [
+                          "/images/shorts/shorts2.png",
+                          "/images/shorts/shorts3.png",
+                          "/images/shorts/shorts1.png",
+                          "/images/shorts/shorts2.png",
+                          "/images/shorts/shorts3.png",
+                          "/images/shorts/shorts1.png",
+                          "/images/shorts/shorts2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 2500,
+                  "size": "XXL",
+                  "leftOnly": "22",
+                  "color": "black",
+                  "createdAt": "2023-01-03T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "шорцеви",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "4",
+                  "type": "vintage",
+                  "category": "фустани",
+                  "name": "Летен фустан",
+                  "brand": "Fraeil",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/fraeil.png",
+                    "brand_concept_text": "Концептот на Fraeil се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/dress/dress1.png",
+                        "small": [
+                              "/images/dress/dress2.png",
+                              "/images/dress/dress3.png",
+                              "/images/dress/dress1.png",
+                              "/images/dress/dress2.png",
+                              "/images/dress/dress3.png",
+                              "/images/dress/dress1.png",
+                              "/images/dress/dress2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1000,
+                  "size": "S",
+                  "leftOnly": "3",
+                  "discount": "20%",
+                  "color": "green",
+                  "createdAt": "2023-01-10T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "фустани",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "5",
+                  "type": "vintage",
+                  "category": "палта и јакни",
+                  "name": "Зимско палто",
+                  "brand": "Urma",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/urma.png",
+                    "brand_concept_text": "Концептот на Urma се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/blackJacket/blackJacket.png",
+                        "small": [
+                              "/images/blackJacket/blackJacket1.png",
+                              "/images/blackJacket/blackJacket2.png",
+                              "/images/blackJacket/blackJacket3.png",
+                              "/images/blackJacket/blackJacket.png",
+                              "/images/blackJacket/blackJacket1.png",
+                              "/images/blackJacket/blackJacket2.png",
+                              "/images/blackJacket/blackJacket3.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 6000,
+                  "size": "S",
+                  "leftOnly": "1",
+                  "color": "yellow",
+                  "createdAt": "2023-01-15T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "палта",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "6",
+                  "type": "vintage",
+                  "category": "долна облека",
+                  "name": "Гаќи",
+                  "brand": "Candle Nest",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/candleNest.png",
+                    "brand_concept_text": "Концептот на Candle Nest се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/shorts/shorts1.png",
+                        "small": [
+                          "/images/shorts/shorts2.png",
+                          "/images/shorts/shorts3.png",
+                          "/images/shorts/shorts1.png",
+                          "/images/shorts/shorts2.png",
+                          "/images/shorts/shorts3.png",
+                          "/images/shorts/shorts1.png",
+                          "/images/shorts/shorts2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 500,
+                  "size": "M",
+                  "leftOnly": "1",
+                  "color": "white",
+                  "createdAt": "2023-01-22T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "долна облека",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "7",
+                  "type": "vintage",
+                  "category": "блузи",
+                  "name": "Р. блуза",
+                  "brand": "Pink Partywear",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/brand-image.png",
+                    "brand_concept_text": "Концептот на Pink Partywear се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/pinkTshirt/pinkTshirt.png",
+                        "small": [
+                              "/images/pinkTshirt/pinkTshirt2.png",
+                              "/images/pinkTshirt/pinkTshirt3.png",
+                              "/images/pinkTshirt/pinkTshirt4.png",
+                              "/images/pinkTshirt/pinkTshirt.png",
+                              "/images/pinkTshirt/pinkTshirt2.png",
+                              "/images/pinkTshirt/pinkTshirt.png",
+                              "/images/pinkTshirt/pinkTshirt2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 2200,
+                  "size": "M",
+                  "leftOnly": "3",
+                  "color": "ribbonPink",
+                  "createdAt": "2023-02-01T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "блузи",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "8",
+                  "type": "vintage",
+                  "category": "палта и јакни",
+                  "name": "Зимско палто",
+                  "brand": "Gatta",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/gatta.png",
+                    "brand_concept_text": "Концептот на Gatta се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/blackJacket/jacket1.png",
+                        "small": [
+                              "/images/blackJacket/jacket2.png",
+                              "/images/blackJacket/jacket3.png",
+                              "/images/blackJacket/jacket4.png",
+                              "/images/blackJacket/jacket1.png",
+                              "/images/blackJacket/jacket2.png",
+                              "/images/blackJacket/jacket3.png",
+                              "/images/blackJacket/jacket4.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 2200,
+                  "size": "L",
+                  "leftOnly": "1",
+                  "color": "black",
+                  "createdAt": "2023-02-04T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "јакни",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "9",
+                  "type": "vintage",
+                  "category": "здолништа / шорцеви",
+                  "name": "Црни шорцеви",
+                  "brand": "Main Days",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/gatta.png",
+                    "brand_concept_text": "Концептот на Main Days се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/shorts/blackShorts1.png",
+                        "small": [
+                              "/images/shorts/blackShorts2.png",
+                              "/images/shorts/blackShorts3.png",
+                              "/images/shorts/blackShorts1.png",
+                              "/images/shorts/blackShorts2.png",
+                              "/images/shorts/blackShorts3.png",
+                              "/images/shorts/blackShorts1.png",
+                              "/images/shorts/blackShorts2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1500,
+                  "size": "XL",
+                  "leftOnly": "22",
+                  "color": "black",
+                  "createdAt": "2023-01-24T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "шорцеви",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "10",
+                  "type": "vintage",
+                  "category": "фустани",
+                  "name": "Црвен фустан",
+                  "brand": "Fraeil",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/fraeil.png",
+                    "brand_concept_text": "Концептот на Fraeil се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/dress/redDress.png",
+                        "small": [
+                              "/images/dress/redDress1.png",
+                              "/images/dress/redDress2.png",
+                              "/images/dress/redDress3.png",
+                              "/images/dress/redDress4.png",
+                              "/images/dress/redDress.png",
+                              "/images/dress/redDress1.png",
+                              "/images/dress/redDress2.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1500,
+                  "size": "S",
+                  "leftOnly": "3",
+                  "discount": "20%",
+                  "color": "blue",
+                  "createdAt": "2023-03-21T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "фустани",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "11",
+                  "type": "vintage",
+                  "category": "долна облека",
+                  "name": "Гаќи",
+                  "brand": "Candle Nest",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/candleNest.png",
+                    "brand_concept_text": "Концептот на Candle Nest се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/shorts/shorts1.png",
+                        "small": [
+                          "/images/shorts/shorts2.png",
+                          "/images/shorts/shorts3.png",
+                          "/images/shorts/shorts1.png",
+                          "/images/shorts/shorts2.png",
+                          "/images/shorts/shorts1.png",
+                          "/images/shorts/shorts2.png",
+                          "/images/shorts/shorts3.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 500,
+                  "size": "S",
+                  "leftOnly": "1",
+                  "color": "white",
+                  "createdAt": "2023-04-22T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "долна облека",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "12",
+                  "type": "vintage",
+                  "category": "панталони",
+                  "name": "Панталони",
+                  "brand": "Gatta",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/urma.png",
+                    "brand_concept_text": "Концептот на Factory Girl се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/trousers/trousers2.png",
+                        "small": [
+                          "/images/trousers/trousers3.png",
+                          "/images/trousers/trousers4.png",
+                          "/images/trousers/trousers1.png",
+                          "/images/trousers/trousers3.png",
+                          "/images/trousers/trousers2.png",
+                          "/images/trousers/trousers4.png",
+                          "/images/trousers/trousers1.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1200,
+                  "size": "M",
+                  "leftOnly": "2",
+                  "color": "lightGray",
+                  "createdAt": "2023-01-29T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "vintage",
+                    "shirts": "блузи",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "13",
+                  "type": "accessories",
+                  "category": "накит",
+                  "name": "С. накит",
+                  "brand": "Factory Girl",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/urma.png",
+                    "brand_concept_text": "Концептот на Factory Girl се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/jewelery/silverExpensive.png",
+                        "small": [
+                          "/images/jewelery/silverExpensive1.png",
+                          "/images/jewelery/silverExpensive.png",
+                          "/images/jewelery/silverExpensive1.png",
+                          "/images/jewelery/silverExpensive.png",
+                          "/images/jewelery/silverExpensive1.png",
+                          "/images/jewelery/silverExpensive.png",
+                          "/images/jewelery/silverExpensive1.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 2000,
+                  "size": "M",
+                  "leftOnly": "2",
+                  "color": "lightGray",
+                  "createdAt": "2023-03-039T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Памук",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "накит",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "14",
+                  "type": "accessories",
+                  "category": "накит",
+                  "name": "В. накит",
+                  "brand": "Candle Nest",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/candleNest.png",
+                    "brand_concept_text": "Концептот на Candle Nest се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Candle Nest да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/jewelery/blueJewelery.png",
+                        "small": [
+                          "/images/jewelery/blueJewelery1.png",
+                          "/images/jewelery/blueJewelery.png",
+                          "/images/jewelery/blueJewelery1.png",
+                          "/images/jewelery/blueJewelery.png",
+                          "/images/jewelery/blueJewelery1.png",
+                          "/images/jewelery/blueJewelery.png",
+                          "/images/jewelery/blueJewelery1.png"
+                         
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1000,
+                  "size": "M",
+                  "leftOnly": "2",
+                  "color": "lightGray",
+                  "createdAt": "2023-04-039T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Сребро",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "накит",
+                    "wardrobe": "гардероба"
+                  } 
+                },
+                {
+                  "id": "15",
+                  "type": "accessories",
+                  "category": "накит",
+                  "name": "Црвен накит",
+                  "brand": "Main Days",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/gatta.png",
+                    "brand_concept_text": "Концептот на Main Days се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Main Days да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/jewelery/redJewelery.png",
+                        "small": [
+                          "/images/jewelery/redJewelery1.png",
+                          "/images/jewelery/redJewelery.png",
+                          "/images/jewelery/redJewelery1.png",
+                          "/images/jewelery/redJewelery.png",
+                          "/images/jewelery/redJewelery1.png",
+                          "/images/jewelery/redJewelery.png",
+                          "/images/jewelery/redJewelery1.png" 
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 500,
+                  "size": "M",
+                  "leftOnly": "2",
+                  "color": "lightGray",
+                  "createdAt": "2023-04-239T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Сребро",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "накит",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "16",
+                  "type": "accessories",
+                  "category": "накит",
+                  "name": "Златен накит",
+                  "brand": "Gatta",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/allBrands/gatta.png",
+                    "brand_concept_text": "Концептот на Gatta се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Candle Nest да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/jewelery/goldJewelery.png",
+                        "small": [
+                          "/images/jewelery/goldJewelery1.png",
+                          "/images/jewelery/goldJewelery.png",
+                          "/images/jewelery/goldJewelery1.png",
+                          "/images/jewelery/goldJewelery.png",
+                          "/images/jewelery/goldJewelery1.png",
+                          "/images/jewelery/goldJewelery.png",
+                          "/images/jewelery/goldJewelery1.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 2000,
+                  "size": "M",
+                  "leftOnly": "2",
+                  "color": "lightGray",
+                  "createdAt": "2023-05-219T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Сребро",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "накит",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "17",
+                  "type": "accessories",
+                  "category": "накит",
+                  "name": "Зл. накит",
+                  "brand": "Beyond Green",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/brand-image.png",
+                    "brand_concept_text": "Концептот на Beyond Green се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Beyond Green да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/jewelery/goldExpensive1.png",
+                        "small": [
+                          "/images/jewelery/goldExpensive.png",
+                          "/images/jewelery/goldExpensive1.png",
+                          "/images/jewelery/goldExpensive.png",
+                          "/images/jewelery/goldExpensive1.png",
+                          "/images/jewelery/goldExpensive.png",
+                          "/images/jewelery/goldExpensive1.png",
+                          "/images/jewelery/goldExpensive.png"
+                         
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 700,
+                  "size": "M",
+                  "leftOnly": "2",
+                  "color": "lightGray",
+                  "createdAt": "2023-06-119T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Злато",
+                  "state": "10/10",
+                  "maintence": "Ова фрижидерче се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "накит",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "18",
+                  "type": "accessories",
+                  "category": "ташни",
+                  "name": "Црна Ташна",
+                  "brand": "Beyond Green",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/brand-image.png",
+                    "brand_concept_text": "Концептот на Beyond Green се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Beyond Green да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/bags/blackBag.png",
+                        "small": [
+                          "/images/bags/blackBag1.png",
+                          "/images/bags/blackBag2.png",
+                          "/images/bags/blackBag3.png",
+                          "/images/bags/blackBag.png",
+                          "/images/bags/blackBag1.png",
+                          "/images/bags/blackBag2.png",
+                          "/images/bags/blackBag3.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1700,
+                  "size": "M",
+                  "leftOnly": "1",
+                  "color": "black",
+                  "createdAt": "2023-07-119T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Кожа",
+                  "state": "10/10",
+                  "maintence": "Ова ташна се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "ташни",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "19",
+                  "type": "accessories",
+                  "category": "ташни",
+                  "name": "В. Ташна",
+                  "brand": "Beyond Green",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/brand-image.png",
+                    "brand_concept_text": "Концептот на Beyond Green се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Beyond Green да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/bags/blueBag1.png",
+                        "small": [
+                          "/images/bags/blueBag.png",
+                          "/images/bags/blueBag2.png",
+                          "/images/bags/blueBag3.png",
+                          "/images/bags/blueBag.png",
+                          "/images/bags/blueBag1.png",
+                          "/images/bags/blueBag2.png",
+                          "/images/bags/blueBag3.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1100,
+                  "size": "M",
+                  "leftOnly": "1",
+                  "color": "blue",
+                  "createdAt": "2023-12-229T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Кожа",
+                  "state": "10/10",
+                  "maintence": "Ова ташна се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "ташни",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "20",
+                  "type": "accessories",
+                  "category": "ташни",
+                  "name": "Ташна",
+                  "brand": "Beyond Green",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/brand-image.png",
+                    "brand_concept_text": "Концептот на Beyond Green се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Beyond Green да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/bags/brownBag.png",
+                        "small": [
+                          "/images/bags/brownBag1.png",
+                          "/images/bags/brownBag2.png",
+                          "/images/bags/brownBag3.png",
+                          "/images/bags/brownBag.png",
+                          "/images/bags/brownBag1.png",
+                          "/images/bags/brownBag2.png",
+                          "/images/bags/brownBag3.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1400,
+                  "size": "M",
+                  "leftOnly": "1",
+                  "color": "ribbonPink",
+                  "createdAt": "2023-01-299T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Кожа",
+                  "state": "10/10",
+                  "maintence": "Ова ташна се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "ташни",
+                    "wardrobe": "гардероба"
+                  }
+                },
+                {
+                  "id": "21",
+                  "type": "accessories",
+                  "category": "ташни",
+                  "name": "Сива Ташна",
+                  "brand": "Beyond Green",
+                  "brand_informations": {
+                    "world_wide_brand": "Странски б.",
+                    "brand_logo_image": "/icons/star1.png",
+                    "brand_advertise_image": "/images/brand-image.png",
+                    "brand_concept_text": "Концептот на Beyond Green се базира на неколку прашања",
+                    "brand_question_one": "Дали постои простор за етикетирања и табу во овој безобразно неетички свет?",
+                    "brand_question_two": "Зошто фолирањето култура е поприфатено од искрениот отпор?",
+                    "brand_question_three": "Дали треба да се срамиме од сопственото само за друг да биде мирен?",
+                    "brand_question_four": "Дали ке ни текне?",
+                    "brand_response": "Зачувај го слободниот дух и биди тоа што си секогаш",
+                    "brand_product_description": "Погледнете ги производите на Beyond Green да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr."
+                   },
+                  "images": {
+                        "main": "/images/bags/greyBag.png",
+                        "small": [
+                          "/images/bags/greyBag1.png",
+                          "/images/bags/greyBag2.png",
+                          "/images/bags/greyBag3.png",
+                          "/images/bags/greyBag.png",
+                          "/images/bags/greyBag1.png",
+                          "/images/bags/greyBag2.png",
+                          "/images/bags/greyBag3.png"
+                        ]
+                      },
+                  "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+                  "price": 1400,
+                  "size": "M",
+                  "leftOnly": "1",
+                  "color": "ribbonPink",
+                  "createdAt": "2023-01-299T12:00:00Z",
+                  "adviceForSize": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+                  "material": "100% Кожа",
+                  "state": "10/10",
+                  "maintence": "Ова ташна се одржува си чистење со влажна крпа.",
+                  "signs": {
+                    "new": "ново",
+                    "vintage": "accesories",
+                    "shirts": "ташни",
+                    "wardrobe": "гардероба"
+                  }
+                }      
+          ]
+          
+}
