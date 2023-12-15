@@ -41,7 +41,7 @@ export default function Home({ productsData }: Props) {
   );
 }
 export const getServerSideProps: GetServerSideProps = async () => {
-  let res = await fetch("http://localhost:5001/products");
+  let res = await fetch("https://project-03-i2tr.onrender.com/products");
   let productsData: ProductsType[] = await res.json();
 
   return {

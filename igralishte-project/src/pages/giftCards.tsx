@@ -139,7 +139,7 @@ const GiftCards: NextPage<Props> = ({ giftData }) => {
 export default GiftCards;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch("http://localhost:5001/gift_cards");
+  const res = await fetch("https://project-03-i2tr.onrender.com/gift_cards");
   const giftData: GiftCardsType = await res.json();
 
   return {

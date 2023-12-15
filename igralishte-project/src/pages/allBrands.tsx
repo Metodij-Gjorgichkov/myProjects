@@ -61,7 +61,9 @@ const AllBrands: NextPage<Props> = ({ brandsData }) => {
 export default AllBrands;
 
 export const getStaticProps: GetStaticProps = async () => {
-  let productsResponse = await fetch("http://localhost:5001/products");
+  let productsResponse = await fetch(
+    "https://project-03-i2tr.onrender.com/products"
+  );
   let productsData: ProductsType[] = await productsResponse.json();
 
   let brandsDataMap: Map<string, { name: string; image: string }> = new Map();

@@ -121,7 +121,9 @@ const About: NextPage<Props> = ({ aboutPageData }) => {
 export default About;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const aboutPageRes = await fetch("http://localhost:5001/about_page");
+  const aboutPageRes = await fetch(
+    "https://project-03-i2tr.onrender.com/about_page"
+  );
   const aboutPageData: AboutPageType = await aboutPageRes.json();
   return {
     props: {

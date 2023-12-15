@@ -111,7 +111,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   try {
     if (query.searchTerm) {
       res = await fetch(
-        `http://localhost:5001/products?category_like=${query.searchTerm}`
+        `https://project-03-i2tr.onrender.com/products?category_like=${query.searchTerm}`
       );
     } else {
       return {

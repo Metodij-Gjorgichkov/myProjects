@@ -378,7 +378,9 @@ const ProductsDetail = ({ product, companyPoliciesData }: Props) => {
 export default ProductsDetail;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const productsResponse = await fetch("http://localhost:5001/products");
+  const productsResponse = await fetch(
+    "https://project-03-i2tr.onrender.com/products"
+  );
   const productsData: ProductsType[] = await productsResponse.json();
 
   const paths = productsData.map((product) => {
@@ -397,13 +399,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   let product: ProductsType | undefined = undefined;
   const companyPoliciesResponse = await fetch(
-    "http://localhost:5001/companyPolicies"
+    "https://project-03-i2tr.onrender.com/companyPolicies"
   );
   const companyPoliciesData = await companyPoliciesResponse.json();
 
   if (params?.id) {
     const productsResponse = await fetch(
-      `http://localhost:5001/products/${params.id}`
+      `https://project-03-i2tr.onrender.com/products/${params.id}`
     );
     product = await productsResponse.json();
   }

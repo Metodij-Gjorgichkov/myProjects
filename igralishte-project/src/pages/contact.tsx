@@ -110,7 +110,9 @@ const Contact: NextPage<Props> = ({ contactPageData }) => {
 export default Contact;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const contactPageRes = await fetch("http://localhost:5001/contact_page");
+  const contactPageRes = await fetch(
+    "https://project-03-i2tr.onrender.com/contact_page"
+  );
   const contactPageData: ContactPageType = await contactPageRes.json();
   return {
     props: {

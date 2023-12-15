@@ -748,41 +748,43 @@ export default FilterMenu;
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const resShirts = await fetch(
-    "http://localhost:5001/products?category=блузи"
+    "https://project-03-i2tr.onrender.com/products?category=блузи"
   );
   const shirts = await resShirts.json();
 
   const resTrousers = await fetch(
-    "http://localhost:5001/products?category=панталони"
+    "https://project-03-i2tr.onrender.com?category=панталони"
   );
   const trousers = await resTrousers.json();
 
   const resShorts = await fetch(
-    "http://localhost:5001/products?category=здолништа+%2F+шорцеви"
+    "https://project-03-i2tr.onrender.com/products?category=здолништа+%2F+шорцеви"
   );
   const shorts = await resShorts.json();
 
   const resDresses = await fetch(
-    "http://localhost:5001/products?category=фустани"
+    "https://project-03-i2tr.onrender.com/products?category=фустани"
   );
   const dresses = await resDresses.json();
 
   const resJackets = await fetch(
-    "http://localhost:5001/products?category=палта+и+јакни"
+    "https://project-03-i2tr.onrender.com/products?category=палта+и+јакни"
   );
   const jackets = await resJackets.json();
 
   const resUnderPants = await fetch(
-    "http://localhost:5001/products?category=долна+облека"
+    "https://project-03-i2tr.onrender.com/products?category=долна+облека"
   );
   const underPants = await resUnderPants.json();
 
   const resJewelery = await fetch(
-    "http://localhost:5001/products?category=накит"
+    "https://project-03-i2tr.onrender.com/products?category=накит"
   );
   const jewelery = await resJewelery.json();
 
-  const resBags = await fetch("http://localhost:5001/products?category=ташни");
+  const resBags = await fetch(
+    "https://project-03-i2tr.onrender.com/products?category=ташни"
+  );
   const bags = await resBags.json();
 
   return {

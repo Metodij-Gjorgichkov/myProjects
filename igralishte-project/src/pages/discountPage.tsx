@@ -63,7 +63,9 @@ const DiscountPage: NextPage<Props> = ({ productsData }) => {
 export default DiscountPage;
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  let res = await fetch("http://localhost:5001/products?discount=20%");
+  let res = await fetch(
+    "https://project-03-i2tr.onrender.com/products?discount=20%"
+  );
   let productsData: ProductsType[] = await res.json();
 
   return {

@@ -120,7 +120,9 @@ const Favorites: NextPage<Props> = ({ productsData }) => {
 export default Favorites;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const productsResponse = await fetch("http://localhost:5001/products");
+  const productsResponse = await fetch(
+    "https://project-03-i2tr.onrender.com/products"
+  );
   const productsData: ProductsType[] = await productsResponse.json();
 
   return {

@@ -278,11 +278,13 @@ export default Order;
 
 export const getStaticProps: GetStaticProps = async () => {
   const companyPoliciesResponse = await fetch(
-    "http://localhost:5001/companyPolicies"
+    "https://project-03-i2tr.onrender.com/companyPolicies"
   );
   const companyPoliciesData = await companyPoliciesResponse.json();
 
-  const productsResponse = await fetch("http://localhost:5001/products");
+  const productsResponse = await fetch(
+    "https://project-03-i2tr.onrender.com/products"
+  );
   const productsData: ProductsType[] = await productsResponse.json();
 
   return {

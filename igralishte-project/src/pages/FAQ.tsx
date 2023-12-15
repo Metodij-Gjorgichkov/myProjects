@@ -67,7 +67,9 @@ const FAQ: NextPage<Props> = ({ faqPageData }) => {
 export default FAQ;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const faqPageRes = await fetch("http://localhost:5001/faq_page");
+  const faqPageRes = await fetch(
+    "https://project-03-i2tr.onrender.com/faq_page"
+  );
   const faqPageData: FaqPageType = await faqPageRes.json();
   return {
     props: {

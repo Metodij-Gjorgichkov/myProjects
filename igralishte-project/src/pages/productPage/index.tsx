@@ -113,7 +113,7 @@ const ProductPage: NextPage<Props> = ({ productsData }) => {
 export default ProductPage;
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
-  let apiUrl = "http://localhost:5001/products";
+  let apiUrl = "https://project-03-i2tr.onrender.com/products";
 
   const appendQueryParam = (paramName: any, paramValues: any) => {
     if (Array.isArray(paramValues)) {
